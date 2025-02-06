@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "B9620DB93C1ED94751A65A209E19A2AF",
+  "keywordClasses": [
+    {
+      "name": "accessapps.logout",
+      "keywordMethods": [
+        {
+          "name": "logoutpage",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}
