@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>1. Add New Employee - Positive Case</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>9481a7d4-5cdc-43f7-86f8-ec10728704a9</testCaseGuid>
-</TestCaseEntity>

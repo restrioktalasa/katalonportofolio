@@ -30,11 +30,8 @@ class NewTestListener {
 	@BeforeTestCase
 	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
 		WebUI.openBrowser(null)
-		
-		WebUI.navigateToUrl(GlobalVariable.url)
 		WebUI.maximizeWindow()
-		
-		CustomKeywords.'accesskeyword.login'(GlobalVariable.username, GlobalVariable.password)
+		WebUI.navigateToUrl(GlobalVariable.url)
 		
 	}
 
@@ -44,7 +41,6 @@ class NewTestListener {
 	 */
 	@AfterTestCase
 	def sampleAfterTestCase(TestCaseContext testCaseContext) {
-		CustomKeywords.'accesskeyword.logout'()
 		WebUI.closeBrowser()
 	}
 
@@ -52,17 +48,17 @@ class NewTestListener {
 	 * Executes before every test suite starts.
 	 * @param testSuiteContext: related information of the executed test suite.
 	 */
-//	@BeforeTestSuite
-//	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
-//		println testSuiteContext.getTestSuiteId()
-//	}
-//
-//	/**
-//	 * Executes after every test suite ends.
-//	 * @param testSuiteContext: related information of the executed test suite.
-//	 */
-//	@AfterTestSuite
-//	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
-//		println testSuiteContext.getTestSuiteId()
-//	}
+	@BeforeTestSuite
+	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
+		println testSuiteContext.getTestSuiteId()
+	}
+
+	/**
+	 * Executes after every test suite ends.
+	 * @param testSuiteContext: related information of the executed test suite.
+	 */
+	@AfterTestSuite
+	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
+		println testSuiteContext.getTestSuiteId()
+	}
 }

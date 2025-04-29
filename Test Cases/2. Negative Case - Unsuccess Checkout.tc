@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>2. Negative Case - Unsuccess Checkout</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e98b8693-3d90-46a1-82b4-6be8cd326652</testCaseGuid>
+</TestCaseEntity>

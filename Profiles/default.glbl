@@ -6,17 +6,17 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Admin'</initValue>
+      <initValue>'standard_user'</initValue>
       <name>username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'admin123'</initValue>
+      <initValue>'secret_sauce'</initValue>
       <name>password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'</initValue>
+      <initValue>'https://www.saucedemo.com/v1/'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
