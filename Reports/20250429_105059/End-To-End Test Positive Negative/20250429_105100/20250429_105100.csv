@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+End-To-End Test Positive Negative,Chrome 135.0.0.0,,,29-04-2025 10:51:06,29-04-2025 10:52:23,1m - 16.665s,PASSED
+,,,,,,,
+Test Cases/1. Positive Case - Success Checkout,Chrome 135.0.0.0,,,29-04-2025 10:51:51,29-04-2025 10:52:11,19.708s,PASSED
+Start listener action : sampleBeforeTestSuite,Chrome 135.0.0.0,,,29-04-2025 10:51:51,29-04-2025 10:51:56,5.111s,PASSED
+"click(findTestObject(""Object Repository/2. Home Page/Button_Add To Cart""))",Chrome 135.0.0.0,,,29-04-2025 10:51:56,29-04-2025 10:51:56,0.281s,PASSED
+"click(findTestObject(""Object Repository/2. Home Page/Button_Shopping Cart""))",Chrome 135.0.0.0,,,29-04-2025 10:51:56,29-04-2025 10:51:57,0.266s,PASSED
+"click(findTestObject(""Object Repository/3. Cart Page/Button_Checkout""))",Chrome 135.0.0.0,,,29-04-2025 10:51:57,29-04-2025 10:52:07,10.526s,PASSED
+"personalinfo.detailinformation(""Nama Depan"", ""Belakang"", ""10000"")",Chrome 135.0.0.0,,,29-04-2025 10:52:07,29-04-2025 10:52:09,1.782s,PASSED
+"click(findTestObject(""Object Repository/4. Personal Information Page/Button_Continue""))",Chrome 135.0.0.0,,,29-04-2025 10:52:09,29-04-2025 10:52:09,0.372s,PASSED
+"click(findTestObject(""Object Repository/5. Overview Page/Button_Finish""))",Chrome 135.0.0.0,,,29-04-2025 10:52:09,29-04-2025 10:52:10,0.625s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/5. Overview Page/Page_Success Checkout""), 5)",Chrome 135.0.0.0,,,29-04-2025 10:52:10,29-04-2025 10:52:10,0.365s,PASSED
+takeScreenshot(),Chrome 135.0.0.0,,,29-04-2025 10:52:10,29-04-2025 10:52:11,0.368s,PASSED
+,,,,,,,
+Test Cases/2. Negative Case - Unsuccess Checkout,Chrome 135.0.0.0,,,29-04-2025 10:52:11,29-04-2025 10:52:23,12.407s,PASSED
+Start listener action : sampleBeforeTestSuite,Chrome 135.0.0.0,,,29-04-2025 10:52:11,29-04-2025 10:52:15,4.528s,PASSED
+"click(findTestObject(""Object Repository/2. Home Page/Button_Add To Cart""))",Chrome 135.0.0.0,,,29-04-2025 10:52:15,29-04-2025 10:52:15,0.276s,PASSED
+"click(findTestObject(""Object Repository/2. Home Page/Button_Shopping Cart""))",Chrome 135.0.0.0,,,29-04-2025 10:52:15,29-04-2025 10:52:16,0.260s,PASSED
+"click(findTestObject(""Object Repository/3. Cart Page/Button_Checkout""))",Chrome 135.0.0.0,,,29-04-2025 10:52:16,29-04-2025 10:52:20,4.450s,PASSED
+"personalinfo.detailinformation("""", """", """")",Chrome 135.0.0.0,,,29-04-2025 10:52:20,29-04-2025 10:52:22,1.771s,PASSED
+"click(findTestObject(""Object Repository/4. Personal Information Page/Button_Continue""))",Chrome 135.0.0.0,,,29-04-2025 10:52:22,29-04-2025 10:52:22,0.285s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/4. Personal Information Page/Button_Error""), 5)",Chrome 135.0.0.0,,,29-04-2025 10:52:22,29-04-2025 10:52:23,0.455s,PASSED
+takeScreenshot(),Chrome 135.0.0.0,,,29-04-2025 10:52:23,29-04-2025 10:52:23,0.320s,PASSED

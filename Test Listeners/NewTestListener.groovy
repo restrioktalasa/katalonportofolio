@@ -50,7 +50,10 @@ class NewTestListener {
 	 */
 	@BeforeTestSuite
 	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
-		println testSuiteContext.getTestSuiteId()
+		WebUI.openBrowser(null)
+		WebUI.maximizeWindow()
+		WebUI.navigateToUrl(GlobalVariable.url)
+		CustomKeywords.'login.logintopage'(GlobalVariable.username, GlobalVariable.password)
 	}
 
 	/**
@@ -59,6 +62,7 @@ class NewTestListener {
 	 */
 	@AfterTestSuite
 	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
-		println testSuiteContext.getTestSuiteId()
+		CustomKeywords.'login.logout'()
+		WebUI.closeBrowser()
 	}
 }
